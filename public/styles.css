@@ -1,0 +1,596 @@
+ html {
+     background: black;
+     color: white;
+     font-family: 'Fira Sans Condensed', sans-serif;
+     scroll-behavior: smooth;
+ }
+
+ html,
+ body {
+     height: 100%;
+     margin: 0;
+ }
+
+ .full-page {
+     min-height: 100%;
+ }
+
+ #main {
+
+     background-image: url(./images/bg.jpg);
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ #main-inside {
+     text-align: center;
+ }
+
+ #logo {
+     height: 150px;
+     margin-top: 50px;
+ }
+
+ #main-text {
+     font-style: italic;
+     font-size: 80px;
+     margin-top: 100px;
+     margin-bottom: 0px;
+ }
+
+ #main-description {
+     font-size: 25px;
+     font-weight: 500;
+     margin-top: 10px;
+     margin-bottom: 80px;
+
+ }
+
+ .button-main {
+     font-style: italic;
+     background: transparent;
+     font-size: 25px;
+     color: white;
+     border: 2px solid white;
+     border-radius: 5px;
+     padding: 8px 35px;
+     -webkit-appearance: button;
+     -moz-appearance: button;
+     appearance: button;
+
+     text-decoration: none;
+ }
+
+ .button-main:hover {
+     color: #8ba42f;
+     border: 2px solid #8ba42f;
+ }
+
+ #main-screen-button {
+     margin-bottom: 50px;
+ }
+
+ .section-name {
+     font-style: italic;
+     font-size: 70px;
+     text-decoration: underline #8ba42f;
+     padding-left: 220px;
+     padding-top: 35px;
+ }
+
+ .column {
+     float: left;
+     width: 20%;
+     padding: 0 10px;
+ }
+
+ .row {
+     margin-left: 230px;
+
+ }
+
+
+ .card {
+     background-color: white;
+     max-width: 250px;
+     text-align: center;
+     color: black;
+     border-radius: 10px;
+     position: relative
+ }
+
+ .ale {
+     position: absolute;
+     top: 0px;
+     right: 0px;
+
+ }
+
+
+ .card-name {
+     font-style: italic;
+     font-size: 40px;
+     padding-top: 35px;
+
+ }
+
+ .card-price {
+     font-size: 25px;
+ }
+
+ .card-price-old {
+     margin-top: -25px;
+     font-size: 17px;
+     text-decoration: line-through;
+     color: #232323;
+ }
+
+ .card-price-sale {
+     font-size: 25px;
+     margin-top: -25px;
+ }
+
+ .card-name-second {
+     font-style: italic;
+     font-size: 25px;
+     margin-top: -45px;
+ }
+
+ #many-lines {
+     margin-top: 40px;
+
+ }
+
+ .button-card {
+     font-family: inherit;
+     font-style: italic;
+     background: #8ba42f;
+     font-size: 18px;
+     color: black;
+     border: 0px solid;
+     border-radius: 5px;
+     padding: 8px 35px;
+     margin-bottom: 20px;
+     -webkit-appearance: button;
+     -moz-appearance: button;
+     appearance: button;
+     text-decoration: none;
+ }
+
+
+ #values {
+     background: url(./images/bg-half.jpg);
+     background-repeat: no-repeat;
+     background-size: 40% 100%;
+     background-position: right top;
+ }
+
+ .value-container {
+     display: flex;
+     align-items: center;
+     justify-content: left;
+     padding-top: 15px;
+ }
+
+ .value-image {
+     margin-left: 190px;
+
+ }
+
+ .value-description {
+     font-size: 20px;
+     padding-left: 20px;
+     max-width: 600px;
+ }
+
+ .card-service {
+     background-color: transparent;
+     max-width: 350px;
+     text-align: left;
+     color: white;
+     border-radius: 10px;
+
+ }
+
+ .card-name-service {
+     font-style: italic;
+     font-size: 25px;
+     padding-top: 35px;
+     width: 300px;
+ }
+
+ .card-description-service {
+     font-size: 19px;
+     font-weight: 400;
+ }
+
+ .row-service {
+     display: grid;
+     column-gap: 5px;
+     grid-template-columns: repeat(3, 1fr);
+     padding-left: 150px;
+
+ }
+
+ .map {
+     margin-left: 220px;
+ }
+
+ .p-contact {
+     margin-left: 220px;
+     font-size: 20px;
+ }
+
+
+ .work-hours-title {
+     font-style: italic;
+     font-size: 30px;
+     margin-left: 220px;
+ }
+
+ #open-everyday {
+     font-size: 26px;
+     margin-left: 220px;
+     text-decoration: underline #8ba42f;
+ }
+
+ .ig-a:visited {
+     color: #8ba42f;
+ }
+
+ #column-instagram-1 {
+     margin-left: 220px;
+ }
+
+ .column-instagram {
+     float: left;
+     width: 500px;
+     margin-right: 70px;
+     margin-bottom: 100px;
+ }
+
+ .payment-img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 70%;
+     margin-top: 100px;
+     margin-bottom: 100px;
+ }
+
+ #footer {
+     background-color: #8ba42f;
+ }
+
+ .card-footer {
+     background-color: transparent;
+     max-width: 50px;
+     text-align: left;
+     color: black;
+     border-radius: 0px;
+ }
+
+ .row-footer {
+     display: grid;
+     column-gap: 0px;
+     grid-template-columns: 400px 400px 400px;
+     padding-left: 300px;
+
+ }
+
+ .p-footer {
+     font-size: 20px;
+     color: black;
+     text-align: center;
+     margin-top: 30px;
+
+ }
+
+ .copyright {
+     font-size: 20px;
+     color: #353535;
+     text-align: center;
+     margin-top: 50px;
+     padding-bottom: 50px;
+ }
+
+ .footer-a:visited {
+     color: black;
+ }
+
+ .donation-title-description {
+     font-size: 20px;
+     margin-left: 220px;
+     margin-top: -20px;
+ }
+
+ .row-donation {
+     display: grid;
+     column-gap: 300px;
+     grid-template-columns: 400px 400px;
+     padding-left: 210px;
+ }
+
+ .name-donation {
+     font-style: italic;
+     font-size: 25px;
+     max-width: 600px;
+ }
+
+ .emoji-donation {
+     font-size: 25px;
+     margin-left: 5px;
+ }
+
+ .donation-container {
+     display: flex;
+     justify-content: left;
+     padding-top: 15px;
+     width: 500px;
+     margin-bottom: -20px;
+ }
+
+ .back-button {
+
+     display: block;
+     position: relative;
+     top: 80px;
+     left: 50px;
+     max-width: 900px;
+
+     z-index: 1;
+
+     -webkit-user-select: none;
+     user-select: none;
+ }
+
+
+
+
+
+
+ /* MENU and ITS ANIMATION */
+
+ #menuToggle {
+     display: block;
+     position: relative;
+     top: 50px;
+     left: 50px;
+     max-width: 900px;
+
+     z-index: 1;
+
+     -webkit-user-select: none;
+     user-select: none;
+ }
+
+ #menuToggle a {
+     text-decoration: none;
+     color: #232323;
+     transition: color 0.3s ease;
+ }
+
+ #menuToggle a:hover {
+     color: #8ba42f;
+     text-decoration: underline;
+ }
+
+ #menuToggle input {
+     display: block;
+     width: 40px;
+     height: 32px;
+     position: absolute;
+     top: -7px;
+     left: -5px;
+
+     cursor: pointer;
+
+     opacity: 0;
+     /* hide this */
+     z-index: 2;
+     /* and place it over the hamburger */
+
+     -webkit-touch-callout: none;
+ }
+
+
+ /*
+ * Hamburger
+ */
+ #menuToggle span {
+     display: block;
+     width: 33px;
+     height: 4px;
+     margin-bottom: 5px;
+     position: relative;
+
+     background: #ffffff;
+     border-radius: 3px;
+
+     z-index: 1;
+
+     transform-origin: 4px 0px;
+
+
+ }
+
+ #menuToggle span:first-child {
+     transform-origin: 0% 0%;
+ }
+
+ #menuToggle span:nth-last-child(2) {
+     transform-origin: 0% 100%;
+ }
+
+ /* 
+ * Transform lines
+ * into a crossmark.
+ */
+ #menuToggle input:checked~span {
+     opacity: 1;
+     transform: rotate(45deg) translate(-2px, -1px);
+     background: #ffffff;
+ }
+
+ #menuToggle input:checked~span:nth-last-child(3) {
+     opacity: 0;
+     transform: rotate(0deg) scale(0.2, 0.2);
+ }
+
+ #menuToggle input:checked~span:nth-last-child(2) {
+     transform: rotate(-45deg) translate(0, -1px);
+ }
+
+
+ #menu {
+     position: absolute;
+     width: 500px;
+     height: 715px;
+     margin: -100px 0 0 -50px;
+     padding: 100px;
+     padding-top: 225px;
+
+     background: black;
+     list-style-type: none;
+     -webkit-font-smoothing: antialiased;
+
+     transform-origin: 0% 0%;
+     transform: translate(-100%, 0);
+
+     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+ }
+
+ #menu li {
+     font-style: italic;
+     padding: 20px 0;
+     font-size: 80px;
+     color: white;
+     -webkit-text-fill-color: transparent;
+     -webkit-text-stroke: 1px;
+
+ }
+
+ #menu li:hover {
+     -webkit-text-fill-color: white;
+     -webkit-text-stroke: 0px;
+ }
+
+ #menuToggle input:checked~ul {
+     transform: none;
+ }
+
+
+ /* 
+ * Changings for different formats
+ */
+ @media screen and (max-width: 600px) {
+     .column {
+         width: 100%;
+         display: block;
+         margin-bottom: 20px;
+     }
+
+     #menuToggle {
+         max-width: 500px;
+     }
+
+     #menu li {
+         font-size: 60px;
+     }
+
+     .section-name {
+         font-size: 50px;
+         padding-left: 30px;
+     }
+
+     .row {
+         margin-left: 120px;
+
+     }
+
+
+     .card-name {
+         font-size: 30px;
+         padding-top: 35px;
+
+     }
+
+     .card-price {
+         font-size: 20px;
+     }
+
+     .card-name-second {
+
+         margin-top: -25px;
+     }
+
+     #values {
+         background-color: black;
+         background: url(./images/black-bg.jpg);
+     }
+
+     .value-image {
+         margin-left: 20px;
+
+     }
+
+     .value-description {
+         font-size: 18px;
+         max-width: 500px;
+     }
+
+     .row-service {
+         display: grid;
+         column-gap: 5px;
+         grid-template-columns: repeat(1, 1fr);
+         padding-left: 60px;
+
+     }
+
+     .map {
+         margin-left: 30px;
+         max-width: 400px;
+         height: 500px;
+     }
+
+     .p-contact {
+         margin-left: 30px;
+         font-size: 20px;
+     }
+
+     .work-hours-title {
+
+         margin-left: 30px;
+     }
+
+     #open-everyday {
+         margin-left: 30px;
+     }
+
+     .column-instagram {
+         width: 200px;
+         margin-bottom: 50px;
+     }
+
+
+     #column-instagram-1 {
+         margin-left: 30px;
+     }
+
+     #column-instagram-2 {
+         margin-left: 30px;
+     }
+
+     .row-footer {
+         display: grid;
+         column-gap: 0px;
+         grid-template-columns: repeat(1, 1fr);
+         padding-left: 30px;
+
+     }
+
+
+
+ }
