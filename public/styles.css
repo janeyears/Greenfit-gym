@@ -236,7 +236,7 @@
      text-decoration: underline #8ba42f;
  }
 
- .ig-a {
+ .ig-a:link {
     color: #8ba42f;
 }
 
