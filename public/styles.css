@@ -236,6 +236,10 @@
      text-decoration: underline #8ba42f;
  }
 
+ .ig-a {
+    color: #8ba42f;
+}
+
  .ig-a:visited {
      color: #8ba42f;
  }
