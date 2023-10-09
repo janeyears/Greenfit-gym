@@ -275,6 +275,10 @@ body {
     padding-bottom: 50px;
 }
 
+.footer-a:link {
+    color: black;
+}
+
 .footer-a:visited {
     color: black;
 }
