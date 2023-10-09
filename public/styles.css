@@ -687,8 +687,10 @@ body {
     }
 
     .payment-img {
-        width: 300px;
-        margin: 20px 0 40px 20px;
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
 
     }
 
