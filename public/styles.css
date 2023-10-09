@@ -636,6 +636,7 @@ body {
         grid-template-columns: repeat(1, 250px);
         grid-template-rows: repeat(3, auto);
         gap: 60px;
+        margin-left: -50px;
 
 
     }
