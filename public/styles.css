@@ -284,6 +284,14 @@ body {
     color: black;
 }
 
+#donation {
+    margin-bottom: 100px;
+}
+
+#donation-section-name{
+    margin-top: -10px
+}
+
 .donation-title-description {
     font-size: 20px;
     margin-left: 100px;
@@ -337,7 +345,7 @@ body {
     width: 500px;
     height: 30px;
     font-size: 25px;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-left: 100px;
     text-align: center;
 }
@@ -410,6 +418,7 @@ body {
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: auto;
 }
+
 
 
 
@@ -635,8 +644,9 @@ body {
     .grid-container-services {
         grid-template-columns: repeat(1, 250px);
         grid-template-rows: repeat(3, auto);
-        gap: 60px;
+        row-gap: 60px;
         margin-left: -50px;
+        
 
 
     }
@@ -723,10 +733,19 @@ body {
         width: 255px;
     }
 
+    #donation{
+        margin-bottom: 40px;
+    }
+
+    #donation-section-name{
+        margin-top: 50px
+    }
+
     .donation-title-description {
-        font-size: 20px;
-        margin-left: 100px;
-        margin-top: -20px;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 330px;
     }
     
     .grid-container-donations {
@@ -734,9 +753,9 @@ body {
         align-items: center;
         justify-content: center;
         row-gap: 10px;
-        column-gap: 30px;
-        grid-template-columns: repeat(2, 600px);
-        grid-template-rows: repeat(3, 150px);
+        column-gap: 10px;
+        grid-template-columns: repeat(1, 350px);
+        grid-template-rows: repeat(6, 170px);
     
     }
 
@@ -744,7 +763,7 @@ body {
     .name-donation {
         font-style: italic;
         font-size: 25px;
-        max-width: 400px;
+        max-width: 300px;
         display: inline;
     }
     
@@ -757,7 +776,7 @@ body {
     .card-description-donation {
         margin-top: 0px;
         font-size: 18px;
-        width: 550px;
+        width: 350px;
     }
     
     .button-donation {
@@ -774,11 +793,11 @@ body {
         -moz-appearance: button;
         appearance: button;
         text-decoration: none;
-        width: 500px;
-        height: 30px;
-        font-size: 25px;
-        margin-top: 30px;
-        margin-left: 100px;
+        width: 280px;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 20px;
         text-align: center;
     }
     
@@ -787,9 +806,9 @@ body {
     
         display: block;
         position: relative;
-        top: 80px;
+        top: 30px;
         left: 50px;
-        max-width: 300px;
+        max-width: 200px;
     
         z-index: 1;
     
@@ -797,6 +816,9 @@ body {
         user-select: none;
     }
     
+    .copyright {
+        font-size: 18px;
+    }
 
 
 }
